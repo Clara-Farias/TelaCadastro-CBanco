@@ -1,0 +1,12 @@
+CREATE DATABASE form;
+USE form;
+
+CREATE TABLE usuarios(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+email VARCHAR (45),
+senha VARCHAR(45),
+caminho BLOB
+);
+DROP TABLE usuarios;
+
+SELECT * FROM usuarios;
